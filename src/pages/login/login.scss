@@ -1,0 +1,47 @@
+// Variable  
+$primary-color: #247392;  
+$secondary-color: #ffffff; 
+page-login {
+    background: $primary-color;
+    height: 100vh;
+  
+}
+ion-item {
+    background: $primary-color;  
+}
+.card_bg{
+    background: $primary-color;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3); 
+}
+.item_bg{
+    background: $primary-color; 
+    border-bottom: 1px solid $secondary-color;
+    color: $secondary-color;
+}
+.person_ico{
+    width: 10vh;
+    padding-bottom: 20vh;
+    margin: auto;
+    display: block;
+}
+.button_signin{
+    margin: auto;
+    display: block; 
+    width: 50vh;
+}
+.icon-size{
+    font-size:4rem;
+}
+.label-size{
+    font-size:2rem; 
+}
+.password-border{
+    font-size:3rem;
+    border:0.2rem solid $secondary-color;
+    border-radius:5rem;
+    width:4rem;
+    padding:0.2rem 1rem 0.2rem 1rem;
+}
+.icon-text-padding{
+    padding-right: 1rem;
+}
